@@ -158,8 +158,3 @@ weather-monitoring/
         │   └── RedisStatsService.java
         └── controller/WeatherController.java
 ```
-
-## Sledeći koraci
-
-- Dodati `@Scheduled` job koji svaki sat povlači sveže podatke (live ingestion).
-- Povezati Grafanu na InfluxDB za vizualizaciju upita na odbrani.
