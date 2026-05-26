@@ -4,7 +4,7 @@ Skelet projekta za KT2: vremenski nizovi sa Open-Meteo arhive, dva InfluxDB mere
 
 ## Stack
 
-- Spring Boot 3.3 (Java 21)
+- Spring Boot 4.0.6 (Java 21)
 - `influxdb-client-java` 7.2 (zvanični klijent za InfluxDB 2.x)
 - Spring Data Redis + Spring Cache (Redis kao kešing backend + direktne komande)
 - WebFlux `WebClient` za pozive ka Open-Meteo
